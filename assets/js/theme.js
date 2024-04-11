@@ -44,7 +44,7 @@ var getData = function getData(el, data) {
 };
 
 /* ----------------------------- Colors function ---------------------------- */
-
+/*
 var hexToRgb = function hexToRgb(hexValue) {
   var hex;
   hexValue.indexOf('#') === 0 ? hex = hexValue.substring(1) : hex = hexValue;
@@ -59,7 +59,7 @@ var rgbaColor = function rgbaColor() {
   var color = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '#fff';
   var alpha = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0.5;
   return "rgba(".concat(hexToRgb(color), ", ").concat(alpha, ")");
-};
+};*/
 
 /* --------------------------------- Colors --------------------------------- */
 
